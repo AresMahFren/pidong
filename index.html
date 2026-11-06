@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#9d131e" />
+  <title>AMT Bench — Sign in</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="stylesheet" href="css/readability.css" />
+  <script src="js/auth.js" defer></script>
+</head>
+<body>
+  <main class="login-layout">
+    <section class="login-welcome">
+      <img class="dragon-mark" src="assets/image.png" alt="AMT department dragon" />
+      <div class="eyebrow"><i></i> UNIVERSITY OF BOHOL · AMT</div>
+      <h1>Aircraft<br />Maintenance<br />Toolroom<span>.</span></h1>
+      <p>Equipment checkout, lab schedules, and tool tracking in one place.</p>
+      <div class="welcome-foot">STUDENT ASSISTANT &nbsp;·&nbsp; WORKSHOP STAFF</div>
+    </section>
+    <section class="login-side">
+      <form class="login-card" id="login-form">
+        <img class="amt-seal" src="assets/AMT.jpg" alt="Aircraft Maintenance Technology seal" />
+        <div class="eyebrow"><i></i> TOOLROOM ACCESS</div>
+        <h2>Welcome back<span>.</span></h2>
+        <p class="login-copy">Sign in to continue to the equipment desk.</p>
+        <label>ACCOUNT NAME<input name="name" required autocomplete="username" value="Luke Aton" /></label>
+        <label>PASSWORD<input name="password" type="password" required autocomplete="current-password" placeholder="Enter password" /></label>
+        <label>ROLE<select name="role"><option>Student assistant</option><option>Workshop staff</option><option>Lab instructor</option></select></label>
+        <div class="login-error" id="login-error" role="alert" aria-live="polite"></div>
+        <button type="submit">Sign in <span>→</span></button>
+        <div class="demo-caption"><i></i> TEMPORARY DEMO ACCOUNT</div>
+        <div class="demo-credentials"><span>Account <b>Luke Aton</b></span><span>Password <b>12345</b></span></div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
