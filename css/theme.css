@@ -1,0 +1,86 @@
+/* University of Bohol AMT dragon identity: crimson, charcoal, and brass gold. */
+:root{
+  --paper:#f7f5f1;
+  --white:#fffefa;
+  --ink:#27221e;
+  --muted:#89847c;
+  --line:#e7e2d9;
+  --soft:#f1eee7;
+  --olive:#9d1721;
+  --olive-dark:#7e1019;
+  --olive-light:#f6e8e5;
+  --red:#a33a2d;
+  --red-light:#fbefec;
+  --amber:#a47526;
+  --amber-light:#faf1df;
+  --gold:#d7ad52;
+  --sans:"Barlow", "DM Sans", Arial, sans-serif;
+  --display:"Barlow Condensed", "Arial Narrow", sans-serif;
+}
+body{font-size:14px}
+.sidebar{background:#211d1c;border-right:1px solid #39302b;color:#f3eee6}
+.brand{color:#fff8ef}
+.brand>img{width:40px;height:40px;border-radius:50%;background:#fff;mix-blend-mode:normal;object-fit:contain}
+.brand-name{font-family:var(--display);font-size:23px;font-weight:800;letter-spacing:.2px;text-transform:uppercase}
+.brand-name span{color:var(--gold)}
+.brand-tag{color:#b8aaa1;font-size:7px;letter-spacing:1.35px}
+.nav-label{color:#a99b91}
+.nav-link{color:#c2b9b1;font-weight:500}
+.nav-link:hover{background:#332c2a;color:white}
+.nav-link.active{background:#451f20;color:#fff4e8;font-weight:650}
+.nav-icon{color:#ab9e94}
+.nav-link.active .nav-icon{color:var(--gold)}
+.nav-count{background:#38302c;color:#d1c6bb}
+.nav-alert{background:#572a29;color:#f0b9aa}
+.desk-card{background:#2e2926;border-color:#403833}
+.desk-card-top{color:#eee5d9}
+.desk-card-hours{color:#bfb4a9}
+.desk-card-line{background:#463d37}
+.desk-card-bottom{color:#b5aaa0}
+.desk-card-bottom>span:last-child{color:#b9c58e}
+.user-card{border-color:#403833}
+.user-copy b{color:#f1eae2}
+.user-copy small,.user-menu{color:#b5aaa0}
+.sidebar-footer{color:#b0a59b}
+.sidebar-footer img{mix-blend-mode:normal;background:white}
+.eyebrow-dot,.status-dot{background:#ad1d27}
+.brand-tag,.nav-label,.widget-kicker,.eyebrow,.metric-top,.selected-head,.field-label,.schedule-table-head,.loan-table-head,.overdue-table-head{font-family:var(--display);font-weight:700;letter-spacing:.1em}
+h1{font-family:var(--display);font-size:39px;font-weight:700;letter-spacing:-.55px}
+h2,.panel-heading h2,.widget-heading h2{font-family:var(--display);font-weight:700;letter-spacing:0}
+.metric-value{font-family:var(--display);font-size:31px;font-weight:700;letter-spacing:0}
+.button,.nav-link,.item-name,.session-info b,.loan-student b,.overdue-student b{font-family:var(--sans)}
+.button-dark{background:var(--olive);font-weight:700;letter-spacing:.015em}
+.button-dark:hover{background:var(--olive-dark)}
+.category-tab{font-family:var(--sans);font-weight:550}
+.category-tab.active{border-bottom-color:var(--olive);color:var(--olive-dark);font-weight:700}
+.category-tab.active>span{color:var(--olive)}
+.item-card:hover{border-color:#d7b9a6;box-shadow:0 4px 13px #6a241411}
+.add-button{color:var(--olive)}
+.add-button:hover{background:var(--olive-light)}
+.mini-session.current .mini-line{background:var(--olive)}
+.mini-session.current .mini-line::after{background:var(--olive)}
+.mini-now,.status-badge.ongoing{background:var(--olive-light);color:var(--olive-dark)}
+.status-badge.ongoing::before{background:var(--olive)}
+.legend-dot.ongoing{background:var(--olive)}
+.schedule-row.ongoing{background:#fbf4ef;box-shadow:inset 2px 0 var(--olive)}
+.schedule-footnote .status-dot{background:var(--olive)}
+.day-chip.selected{border-color:#c59652;background:#fbf5e9}
+.day-chip.selected .day-number,.text-button,.nav-link.active .nav-icon{color:#a6792d}
+.text-button{font-weight:600}
+.week-controls .button-dark{background:#27221e}
+.week-controls .button-dark:hover{background:#494038}
+.selected-head span:last-child{color:var(--olive)}
+.overdue-pill{background:#f7e7e2}
+.modal h2{font-family:var(--display);font-size:29px;font-weight:700}
+.modal-step,.demo-note{font-family:var(--display);font-weight:700}
+.receipt-header b,.receipt-title,.receipt-items-title,.receipt-foot{font-family:var(--display);font-weight:700}
+.top-avatar{background:#f0dfbd;color:#69471d}
+.avatar{background:#ead8bd;color:#65471d}
+.heading-actions{display:flex;align-items:center;gap:15px}
+.department-mark{display:flex;align-items:center;gap:9px;padding-right:14px;border-right:1px solid var(--line)}
+.department-mark img{width:43px;height:43px;object-fit:contain;border:1px solid #e9e0d6;border-radius:50%;background:#fff}
+.department-mark span{display:grid;gap:2px}
+.department-mark b{font:700 13px var(--display);letter-spacing:.08em;color:#33231c}
+.department-mark small{font:700 7px var(--display);letter-spacing:.13em;color:#9b8876}
+@media(max-width:820px){.desk-card{background:#332d29;border-color:#463c35}.nav-link.active{background:#451f20}}
+@media(max-width:560px){h1{font-size:33px}.heading-actions{gap:7px;flex-direction:column;align-items:flex-end}.department-mark{gap:5px;padding-right:0;border-right:0}.department-mark img{width:28px;height:28px}.department-mark b{font-size:10px}.department-mark small{font-size:6px}.page-heading>.heading-actions .button{min-height:30px}}

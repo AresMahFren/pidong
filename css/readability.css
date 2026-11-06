@@ -1,0 +1,92 @@
+/* Larger supporting text for day-to-day toolroom use. */
+body{font-size:15px}
+.nav-link{font-size:13px}
+.nav-label{font-size:10px}
+.brand-tag{font-size:9px}
+.breadcrumb{font-size:12px}
+.today-label{font-size:10px}
+.eyebrow{font-size:10px}
+.page-subtitle{font-size:13px}
+.metric-top{font-size:10px}
+.metric-foot{font-size:11px}
+.panel-heading h2,.widget-heading h2{font-size:15px}
+.panel-heading p{font-size:11px}
+.search-box input{font-size:11px}
+.category-tab{font-size:11px}
+.category-tab>span{font-size:9px}
+.item-name{font-size:12px}
+.item-tag{font-size:9px}
+.item-sub{font-size:10.5px}
+.availability{font-size:10px}
+.add-button{width:24px;height:24px}
+.widget-kicker{font-size:9px}
+.schedule-date{font-size:10px}
+.mini-time{font-size:9px}
+.mini-class{font-size:10px}
+.mini-class small{font-size:9px}
+.mini-now{font-size:7px}
+.schedule-legend{font-size:9px}
+.overdue-person{gap:9px}
+.person-copy b{font-size:10px}
+.person-copy small{font-size:9px}
+.overdue-time{font-size:9px}
+.text-button{font-size:10px}
+.full-button{font-size:10px}
+.rail-note{font-size:10px}
+.page-footer{font-size:9px}
+.week-controls>span{font-size:10px}
+.day-name{font-size:9px}
+.day-number{font-size:15px}
+.schedule-table-head,.loan-table-head,.overdue-table-head{font-size:9px}
+.session-time{font-size:10px}
+.session-time small{font-size:9px}
+.session-info b,.loan-student b,.overdue-student b{font-size:11px}
+.session-info small,.loan-student small,.overdue-student small{font-size:9.5px}
+.session-group,.session-instructor{font-size:10px}
+.status-badge{font-size:9px}
+.schedule-footnote{font-size:10px}
+.loan-items{font-size:10px}
+.loan-time{font-size:9px}
+.row-action,.remind-button{font-size:9px}
+.results-label{font-size:9px}
+.alert-banner{font-size:11px}
+.overdue-item{font-size:10px}
+.overdue-item small,.overdue-contact,.overdue-duration{font-size:9px}
+.modal-description{font-size:12px}
+.field-label{font-size:9px}
+.field-hint{font-size:9px}
+.selected-head{font-size:9px}
+.selected-chip{font-size:10px}
+.empty-selection,.empty-state{font-size:11px}
+.button{font-size:12px}
+.demo-note{font-size:9px}
+.login-card .field-label{font-size:10px}
+.login-card label{font-size:10px}
+.login-welcome .eyebrow,.login-card .eyebrow{font-size:10px}
+.login-card .field-label>input,.login-card .field-label>select{font-size:14px}
+.login-copy{font-size:13px}
+.demo-caption{font-size:10px}
+.demo-credentials{font-size:12px}
+.login-card button{font-size:14px}
+.checkout-modal{width:min(680px,calc(100vw - 28px));padding:26px 28px}
+.checkout-modal .modal-step,.checkout-modal .eyebrow{font-size:11px}
+.checkout-modal h2{font-size:32px}
+.checkout-modal .modal-description{font-size:13px}
+.checkout-modal .selected-head{font-size:10px}
+.checkout-modal .selected-head span:last-child{font-size:11px}
+.checkout-modal .selected-chip{font-size:12px;padding:7px 8px}
+.checkout-modal .field-label{font-size:11px;line-height:1.35}
+.checkout-modal .field-label>input,.checkout-modal .field-label>select{height:40px;font-size:14px;padding:0 11px}
+.checkout-modal .rfid-field{height:42px}
+.checkout-modal .rfid-field input{font-size:13px}
+.checkout-modal .scan-button{height:32px;min-height:32px;font-size:12px;padding:0 10px}
+.checkout-modal .field-hint{font-size:10px}
+.checkout-modal .checkout-actions .button{min-height:39px;font-size:13px;padding:0 14px}
+.checkout-modal .modal-close{width:31px;height:31px;font-size:20px}
+@media(max-width:560px){
+  .page-subtitle{font-size:12px}
+  .panel-heading p{font-size:10px}
+  .item-name{font-size:11.5px}
+  .item-sub{font-size:10px}
+  .loan-table-head,.loan-row,.overdue-table-head,.overdue-row{font-size:9px}
+}
