@@ -1,0 +1,42 @@
+.student-page{font-size:14px}
+.student-page .sidebar{z-index:4}
+.student-page .student-columns{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:14px;align-items:start}
+.student-page .student-rail{display:grid;gap:12px}
+.student-page .student-warning{margin-bottom:14px}
+.student-page .ongoing-banner{display:flex;align-items:center;gap:9px;padding:12px 15px;margin-bottom:14px;border:1px solid #dce2cf;border-radius:4px;background:#eff3e8;color:#5d6846;font-size:13px}
+.ongoing-banner[hidden]{display:none}
+.ongoing-banner span:last-child{color:#767a68}
+.ongoing-pulse{width:9px;height:9px;border-radius:50%;background:#7a8b50;box-shadow:0 0 0 4px #7a8b5021}
+.student-page .schedule-widget{margin:0}
+.reservation-form{padding:16px}
+.reservation-form h2{margin:3px 0 6px;font:700 22px var(--display);color:var(--ink)}
+.form-intro{margin:0 0 14px;color:#777469;font-size:12px;line-height:1.5}
+.reservation-form .field-label{margin-bottom:12px;font-size:10px}
+.reservation-form .field-label>input,.reservation-form .field-label>select{height:39px;font-size:13px}
+.reservation-form .form-grid{gap:9px}
+.student-form-error{min-height:0;margin:-3px 0 9px;color:#9d1721;font-size:12px}
+.student-form-error:not(:empty){padding:8px;border-radius:3px;background:#fff2ef}
+.student-alert{padding:13px 15px;margin-bottom:12px;border:1px solid #dce2cf;border-radius:4px;background:#eff3e8;color:#53613e;font-size:13px}
+.student-alert.info{border-color:#dce2cf}
+.student-alert.overdue-student-alert{border-color:#eed8d1;background:#fbf1ee;color:#8b473d;line-height:1.55}
+.student-alert.overdue-student-alert b{color:#8b342b}
+.reservation-list{overflow:hidden}
+.staff-reservation{display:grid;grid-template-columns:minmax(140px,1fr) minmax(165px,1.2fr) minmax(190px,1.4fr) 100px auto;align-items:center;gap:12px;padding:15px;border-bottom:1px solid #efede8}
+.staff-reservation:last-child{border-bottom:0}
+.staff-reservation b{display:block;font-size:13px;line-height:1.4;color:#46443a}
+.staff-reservation small{display:block;margin-top:4px;font-size:11px;line-height:1.45;color:#89867b}
+.staff-reservation .status-badge{text-transform:capitalize;font-size:10px}
+.reservation-actions{display:flex;gap:6px}
+.reservation-actions button{font-size:11px}
+.student-page .item-art-badge{z-index:6}
+.student-page .photo-missing{background:#fff8f5}
+.student-page .photo-missing::after{content:"Photo not available";position:absolute;z-index:2;inset:auto 0 7px;text-align:center;color:#8e796f;font-size:10px}
+.student-page .category-tabs{overflow-x:auto}
+.student-page .item-footer .availability{font-size:11px}
+.student-page .item-name{font-size:14px}
+.student-page .item-sub{font-size:11px}
+.student-page .item-tag{font-size:10px}
+.student-page .week-controls>span{font-size:12px}
+@media(max-width:1180px){.student-page .student-columns{grid-template-columns:minmax(0,1fr) 275px;gap:10px}.student-page .item-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.staff-reservation{grid-template-columns:minmax(120px,1fr) minmax(140px,1fr) minmax(160px,1.2fr) 90px auto;gap:8px}}
+@media(max-width:860px){.student-page .student-columns{grid-template-columns:1fr}.student-page .student-rail{grid-template-columns:1fr 1fr;align-items:start}.student-page .student-rail>.schedule-widget{height:100%}.staff-reservation{grid-template-columns:1fr 1fr;gap:10px}.staff-reservation .status-badge{justify-self:start}}
+@media(max-width:560px){.student-page .student-rail{grid-template-columns:1fr}.student-page .item-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.student-page .ongoing-banner{align-items:flex-start;flex-wrap:wrap;font-size:12px}.staff-reservation{grid-template-columns:1fr}.student-page .schedule-table-head,.student-page .schedule-row{min-width:670px}.student-page .week-controls{margin-top:5px}}

@@ -5,7 +5,7 @@ try {
   currentUser = null;
 }
 
-if (!currentUser?.name) {
+if (currentUser?.name?.toLowerCase() !== "denise simbajon" || currentUser?.role === "Student") {
   window.location.replace("index.html");
 } else {
   const initials = currentUser.name.split(/\s+/).map(part => part[0]).join("").slice(0, 2).toUpperCase();
