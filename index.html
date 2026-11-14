@@ -27,13 +27,19 @@
         <div class="eyebrow"><i></i> TOOLROOM ACCESS</div>
         <h2>Welcome back<span>.</span></h2>
         <p class="login-copy">Sign in to continue to the equipment desk.</p>
-        <label>ACCOUNT NAME<input name="name" required autocomplete="username" value="Luke Aton" /></label>
-        <label>PASSWORD<input name="password" type="password" required autocomplete="current-password" placeholder="Enter password" /></label>
-        <label>ROLE<select name="role"><option>Student assistant</option><option>Workshop staff</option><option>Lab instructor</option></select></label>
+        <label>ACCOUNT NAME<input name="name" required autocomplete="username" value="Denise Simbajon" /></label>
+        <label class="password-label">PASSWORD
+          <span class="password-control">
+            <input id="password-input" name="password" type="password" required autocomplete="current-password" placeholder="Enter password" />
+            <button class="password-toggle" id="toggle-password" type="button" aria-label="Show password" aria-pressed="false">Show</button>
+          </span>
+        </label>
+        <label>ROLE<select name="role" id="account-role"><option>Student assistant</option><option>Workshop staff</option><option>Lab instructor</option><option>Student</option></select></label>
         <div class="login-error" id="login-error" role="alert" aria-live="polite"></div>
         <button type="submit">Sign in <span>→</span></button>
-        <div class="demo-caption"><i></i> TEMPORARY DEMO ACCOUNT</div>
-        <div class="demo-credentials"><span>Account <b>Luke Aton</b></span><span>Password <b>12345</b></span></div>
+        <p class="student-login-hint" id="student-login-hint" hidden>Student account: <b>Reil Telmo</b> · Password <b>12345</b>. The student portal opens in a new tab.</p>
+        <div class="demo-caption" id="demo-caption"><i></i> TEMPORARY DEMO ACCOUNT</div>
+        <div class="demo-credentials"><span>Account <b>Denise Simbajon</b></span><span>Password <b>12345</b></span></div>
       </form>
     </section>
   </main>
